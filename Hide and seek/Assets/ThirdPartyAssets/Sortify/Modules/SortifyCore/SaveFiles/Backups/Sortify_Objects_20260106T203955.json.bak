@@ -13,7 +13,7 @@
                     "colorValue": "4040BFFF"
                 },
                 {
-                    "objID": "Game_ENVIRONMENT_3",
+                    "objID": "Game_ENVIRONMENT_2",
                     "colorValue": "40BF40FF"
                 }
             ],
@@ -23,7 +23,7 @@
                     "styleType": 1
                 },
                 {
-                    "objID": "Game_ENVIRONMENT_3",
+                    "objID": "Game_ENVIRONMENT_2",
                     "styleType": 1
                 }
             ],
