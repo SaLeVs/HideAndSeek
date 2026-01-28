@@ -24,7 +24,7 @@ partial struct TestNetcodeEntitiesServerSystem : ISystem
                     RefRO<TestRpc>, 
                     RefRO<ReceiveRpcCommandRequest>>().WithEntityAccess())            
         {
-            Debug.Log($"Received Rp: {testRpc.ValueRO.value}");
+            Debug.Log($"Received Rp: {testRpc.ValueRO.value} :: {receiveRpcCommandRequest.ValueRO.SourceConnection}"); // SourceConnection is the client that sent the RPC
             entityCommandBuffer.DestroyEntity(entity);
         }
         
