@@ -1,11 +1,12 @@
 {
-    "name": "Project.Game",
+    "name": "Project.Components",
     "rootNamespace": "",
     "references": [
-        "GUID:80bef6887e48d4948bd496ac89c465f2",
-        "GUID:7f90a22d2de58784fa2b75ae1d9fe3ae",
-        "GUID:595e7eb311e78554da47dc9f2aa7edf7",
-        "GUID:b891a9c43c4f341408c16db2679024a4"
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:953adc2a6b8b4e3c8df5b728bcd546e9",
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:d8b63aba1907145bea998dd612889d6b"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

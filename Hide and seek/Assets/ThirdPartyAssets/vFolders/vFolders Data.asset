@@ -20,6 +20,9 @@ MonoBehaviour:
     - dbd7cb355a23d514e8b7d3caf7af2523
     - a95b91a8584da4446acfd020338558c5
     - 8a02eea19fdb33b4784df2d5e74cb279
+    - 43b992bcaa7b2364c9382289f919af66
+    - 67e353d4de092564999143b7e0efa566
+    - 89e66851d8ca01248af6ed63a2843a2b
     values:
     - iconNameOrGuid: TextAsset Icon
       colorIndex: 1
@@ -41,8 +44,20 @@ MonoBehaviour:
       colorIndex: 5
       isIconRecursive: 0
       isColorRecursive: 0
-    - iconNameOrGuid: 
-      colorIndex: 3
+    - iconNameOrGuid: cs Script Icon
+      colorIndex: 4
+      isIconRecursive: 0
+      isColorRecursive: 1
+    - iconNameOrGuid: cs Script Icon
+      colorIndex: 2
       isIconRecursive: 0
       isColorRecursive: 0
+    - iconNameOrGuid: 
+      colorIndex: 1
+      isIconRecursive: 0
+      isColorRecursive: 0
+    - iconNameOrGuid: cs Script Icon
+      colorIndex: 6
+      isIconRecursive: 0
+      isColorRecursive: 1
   bookmarks: []

@@ -2,37 +2,42 @@ using Unity.Burst;
 using Unity.Entities;
 using Unity.NetCode;
 using UnityEngine;
+using Components;
 
-[WorldSystemFilter(WorldSystemFilterFlags.ClientSimulation)]
-partial struct TestNetcodeEntitiesClientSystem : ISystem
+namespace Systems
 {
-    [BurstCompile]
-    public void OnCreate(ref SystemState state)
+    [WorldSystemFilter(WorldSystemFilterFlags.ClientSimulation)]
+    partial struct TestNetcodeEntitiesClientSystem : ISystem
     {
-        
-    }
-
-    // [BurstCompile]
-    public void OnUpdate(ref SystemState state)
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
+        [BurstCompile]
+        public void OnCreate(ref SystemState state)
         {
-            Entity rpcEntity = state.EntityManager.CreateEntity();
-            
-            state.EntityManager.AddComponentData(rpcEntity, new TestRpc
-            {
-                value = 10
-            });
+        
+        }
 
-            state.EntityManager.AddComponentData(rpcEntity, new SendRpcCommandRequest());
+        // [BurstCompile]
+        public void OnUpdate(ref SystemState state)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Entity rpcEntity = state.EntityManager.CreateEntity();
             
-            Debug.Log("Sending Rpc...");
+                state.EntityManager.AddComponentData(rpcEntity, new TestRpc
+                {
+                    value = 10
+                });
+
+                state.EntityManager.AddComponentData(rpcEntity, new SendRpcCommandRequest());
+            
+                Debug.Log("Sending Rpc...");
+            }
+        }
+
+        [BurstCompile]
+        public void OnDestroy(ref SystemState state)
+        {
+        
         }
     }
-
-    [BurstCompile]
-    public void OnDestroy(ref SystemState state)
-    {
-        
-    }
 }
+

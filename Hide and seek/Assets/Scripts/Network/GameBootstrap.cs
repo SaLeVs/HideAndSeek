@@ -1,12 +1,15 @@
-using UnityEngine;
 using Unity.NetCode;
 
-[UnityEngine.Scripting.Preserve]
-public class GameBootstrap : ClientServerBootstrap
+namespace Network
 {
-    public override bool Initialize(string defaultWorldName)
+    [UnityEngine.Scripting.Preserve]
+    public class GameBootstrap : ClientServerBootstrap
     {
-        AutoConnectPort = 7979;
-        return base.Initialize(defaultWorldName);
+        public override bool Initialize(string defaultWorldName)
+        {
+            AutoConnectPort = 7979;
+            return base.Initialize(defaultWorldName);
+        }
     }
 }
+
