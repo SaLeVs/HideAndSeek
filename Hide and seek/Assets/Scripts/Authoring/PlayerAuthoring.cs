@@ -1,0 +1,14 @@
+using UnityEngine;
+using Unity.Entities;
+
+namespace Authoring
+{ 
+    public class PlayerAuthoring : MonoBehaviour
+    {
+        public class PlayerAuthoringBaker : Baker<PlayerAuthoring>
+        {
+            
+        }
+    }
+}
+
