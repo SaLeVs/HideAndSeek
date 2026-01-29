@@ -7,7 +7,10 @@ namespace Authoring
     {
         public class PlayerAuthoringBaker : Baker<PlayerAuthoring>
         {
-            
+            public override void Bake(PlayerAuthoring authoring)
+            {
+                
+            }
         }
     }
 }
