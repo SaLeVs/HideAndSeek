@@ -23,6 +23,11 @@ MonoBehaviour:
     - 43b992bcaa7b2364c9382289f919af66
     - 67e353d4de092564999143b7e0efa566
     - 89e66851d8ca01248af6ed63a2843a2b
+    - ce01efd591a8953469eeece6145a196c
+    - e608551f7a85f7d49b384a0309040082
+    - 7a6b03fba896997499de9711a700b032
+    - 4662adb588ae1274f98345bd70bbc0ef
+    - 12892f0f1c1294c4dbd43130d5e9cca9
     values:
     - iconNameOrGuid: TextAsset Icon
       colorIndex: 1
@@ -60,4 +65,24 @@ MonoBehaviour:
       colorIndex: 6
       isIconRecursive: 0
       isColorRecursive: 1
+    - iconNameOrGuid: 
+      colorIndex: 10
+      isIconRecursive: 0
+      isColorRecursive: 0
+    - iconNameOrGuid: Settings Icon
+      colorIndex: 7
+      isIconRecursive: 0
+      isColorRecursive: 1
+    - iconNameOrGuid: Settings Icon
+      colorIndex: 8
+      isIconRecursive: 0
+      isColorRecursive: 1
+    - iconNameOrGuid: 
+      colorIndex: 10
+      isIconRecursive: 0
+      isColorRecursive: 0
+    - iconNameOrGuid: Settings Icon
+      colorIndex: 10
+      isIconRecursive: 0
+      isColorRecursive: 0
   bookmarks: []

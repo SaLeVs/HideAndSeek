@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: OdinModuleConfig
   m_EditorClassIdentifier: Sirenix.OdinInspector.Editor.dll::Sirenix.OdinInspector.Editor.Modules.OdinModuleConfig
   configurations:
-  - ID: Unity.Localization
+  - ID: Unity.Mathematics
     ActivationSettings: 0
   ModuleTogglingSettings: 1
   ModuleUpdateSettings: 1

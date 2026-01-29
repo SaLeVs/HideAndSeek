@@ -10,5 +10,6 @@ AssetOrigin:
   productId: 89041
   packageName: Odin Inspector and Serializer
   packageVersion: 4.0.1.2
-  assetPath: Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/Bootstrap License.txt
+  assetPath: Assets/ThirdPartyAssets/Plugins/Sirenix/Odin Inspector/Assets/Editor/Bootstrap
+    License.txt
   uploadId: 835510
